@@ -13,6 +13,23 @@ Note: code is for reference only (taken from an online course)
 
 
 if __name__ == '__main__':
+    # Note on detecting operating system:
+
+    # >>> sys.platform()
+
+    # >>> import platform
+    # >>> platform.platform()
+    # 'Linux-3.3.0-8.fc16.x86_64-x86_64-with-fedora-16-Verne'
+
+    # platform also has some other useful methods:
+    # >>> platform.system()
+    # 'Windows'
+    # >>> platform.release()
+    # 'XP'
+    # >>> platform.version()
+    # '5.1.2600'
+
+    ######################################################################
     # Your first unit test using pytest:
 
     # Import the function convert_to_int()
